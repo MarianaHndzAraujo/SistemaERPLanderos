@@ -1,0 +1,21 @@
+body{
+  background-image: url(../imagenes/f13.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+.contenerdorform{
+  position: absolute;
+	left: 30vw;
+	right: 30vw;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(230, 230, 250);
+	padding: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000;
+
+}

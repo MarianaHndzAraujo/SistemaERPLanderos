@@ -1,0 +1,30 @@
+body{
+  background-image: url(../imagenes/g4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-grow: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container .card{
+  white: 330px;
+  height: 330px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px right(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: left;
+  transition: all 0.25s;
+}
